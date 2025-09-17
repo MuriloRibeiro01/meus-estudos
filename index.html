@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Cursor Bloqueado</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <h2>Escolha o horário do atendimento:</h2>
+
+    <div class="dropdown" id="horarios">        
+
+        <button id="botao_dropdown_hora" class="dropdown_btn">Horários ▼</button>
+
+            <div id="dropdown_horarios" class="dropdown_content">
+
+                <button class="botao_disponivel">09:00</button>
+                <button class="botao_indisponivel">10:00</button>
+                <button class="botao_indisponivel">11:00</button>
+
+            </div>
+        
+        
+
+    </div>
+
+    <p class="indisponivel">Quando o horário estiver ocupado, seu cursor ficará desabilitado.</p>
+
+    <script>
+        
+        $(document).ready(function()
+        {
+            
+
+
+
+            // 1. Quando o botão com id 'meu-botao' for clicado...
+            $('.dropdown_btn').on('click', function(){
+
+                alert("jQuery está funcionando!!!!!!!!!!!!!!!!!!!!!!!!!");
+            });
+
+        });
+
+
+    </script>
+    
+    
+
+</body>
+</html>
