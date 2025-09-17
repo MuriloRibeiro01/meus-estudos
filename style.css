@@ -8,8 +8,15 @@
     border-radius: 5px;
 }
 
+.botao_indisponivel {
+    cursor: not-allowed;
+    color: gray;
+    background-color: #e0e0e0;
+    opacity: 50%;
+}
+
 .dropdown_btn:hover {
-    background-color: #45a049;
+    background-color: #232b23;
 }
 
 .dropdown {
@@ -38,3 +45,6 @@
     background-color: #f1f1f1;
 }
 
+.mostrar {
+    display: block;
+}
