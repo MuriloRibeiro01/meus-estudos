@@ -8,6 +8,10 @@
     border-radius: 5px;
 }
 
+.botao_disponivel {
+    cursor: pointer;
+}
+
 .botao_indisponivel {
     cursor: not-allowed;
     color: gray;
